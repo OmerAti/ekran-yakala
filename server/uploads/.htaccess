@@ -1,0 +1,4 @@
+Options +FollowSymlinks -MultiViews
+RewriteEngine on
+
+RewriteRule ^(uploads)/([^.]*)\.png$ $1/index.php?name=$2 [L,NC]
